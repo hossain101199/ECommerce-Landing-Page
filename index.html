@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ECommerce Landing Page</title>
+</head>
+
+<body>
+  <!-- __________________________________________________ -->
+  <header>
+    <img src="./assets/logo.svg" alt="brand logo">
+    <nav>
+      <ul id="navigationList">
+        <li><a href="/">Men</a></li>
+        <li><a href="/">Women</a></li>
+        <li><a href="/">Kids</a></li>
+        <li><a href="/">Shop</a></li>
+        <li><a href="/">Contact us</a></li>
+      </ul>
+    </nav>
+    <div id="searchBar">
+      <input type="text" name="" id="" placeholder="Search here">
+      <button><img src="./assets/searchIcon.svg" alt=""></button>
+    </div>
+    <div>
+      <div>
+        <img src="./assets/loveIcon.svg" alt="">
+      </div>
+      <div>
+        <img src="./assets/cartIcon.svg" alt="">
+      </div>
+      <div id="userInfo">
+        <img src="./assets/userIMG.png" alt="">
+        <p>Anne Doe</p>
+      </div>
+    </div>
+  </header>
+  <!-- __________________________________________________ -->
+  <section id="affiliate">
+    <div style="width: 100%; justify-content: center;">
+      <p style="margin-right: 15px;">Invite Friends and get 50% off on your next purchase</p>
+      <a href="/">Invite Now</a>
+    </div>
+    <div>
+      <button onclick="displayHidden()">
+        <img src="./assets/crossIcon.svg" alt="">
+      </button>
+    </div>
+
+  </section>
+  <!-- __________________________________________________ -->
+  <section>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div style="display: flex;">
+          <img src="./assets/heroIMG.png" width="60%">
+          <div class="heroBack"><img src="./assets//prada.png" alt="">
+            <p style="margin-top: 66px;">Big Fashion Festival</p>
+            <p style="margin-top: 22px;">50% - 80% off</p><button class="Explore">Explore</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="mySlides fade">
+        <div style="display: flex;">
+          <img src="./assets/heroIMG1.png" width="60%">
+          <div class="heroBack"><img src="./assets//prada.png" alt="">
+            <p style="margin-top: 66px;">Big Fashion Festival</p>
+            <p style="margin-top: 22px;">40% - 70% off</p><button class="Explore">Explore</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="mySlides fade">
+        <div style="display: flex;">
+          <img src="./assets/heroIMG2.png" width="60%">
+          <div class="heroBack"><img src="./assets//prada.png" alt="">
+            <p style="margin-top: 66px;">Big Fashion Festival</p>
+            <p style="margin-top: 22px;">60% - 90% off</p><button class="Explore">Explore</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+  <!-- __________________________________________________ -->
+  <section style="padding: 80px 50px 0px 50px;">
+    <h1 class="sectionTitle">Trending Now</h1>
+    <br>
+    <div id="trendingProductsContainer">
+    </div>
+  </section>
+  <!-- __________________________________________________ -->
+  <section style="padding: 80px 50px 0px 50px;">
+    <h1 class="sectionTitle">Deals of the Day</h1>
+    <br>
+    <div id="dealsOfTheDay">
+    </div>
+  </section>
+  <!-- __________________________________________________ -->
+  <section style="padding: 80px 50px 0px 50px;">
+    <h1 class="sectionTitle">Trending Offers</h1>
+    <br>
+    <div id="">
+    </div>
+  </section>
+  <!-- __________________________________________________ -->
+  <section
+    style="margin-top: 80px; padding-bottom: 217px; background-image: url(./assets/offerSectionBackground.png); background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; align-items: center;">
+    <svg style="margin-top: 217px;" width="530" height="88" viewBox="0 0 530 88" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M517.552 0.729028L505.105 0.687432V13.9128L517.552 13.8471V87.2929H530V0.729028H517.552ZM489.662 21.7701C489.662 10.2195 484.167 0 471.22 0C460.838 0 452.541 8.50094 452.541 18.8496V25.6561H464.987V18.5913C464.987 14.5784 467.419 12.3869 471.092 12.3869C477.194 12.3869 477.194 17.6039 477.194 21.9847C477.194 26.7288 477.194 29.1545 475.001 33.4061L452.541 75.5912V87.271H489.662V74.8622H467.202L485.514 39.7178C489.423 32.3312 489.662 30.1419 489.662 21.7701ZM372.519 39.396H365.438V12.4088H371.912C381.078 12.4088 382.533 17.153 382.533 25.9122C382.533 34.5226 381.209 39.396 372.519 39.396ZM395.001 26.1487C395.001 9.36133 387.789 0.729028 373.02 0.729028H352.991V87.2929H365.438V50.3445H372.889L384.489 87.3148H397.673L384.25 47.7896C392.177 43.4089 395.001 36.1099 395.001 26.1487ZM296.668 87.2929H333.792V74.8841H309.136V49.4863H330.62V37.8065H309.136V12.4088H333.792V0.729028H296.668V87.2929ZM254.855 61.1639H254.616L244.733 0.729028H231.549L249.251 87.2929H260.242L278.075 0.729028H264.891L254.855 61.1639ZM178.439 87.2929H215.561V74.8841H190.886V49.4863H212.369V37.8065H190.886V12.4088H215.541V0.729028H178.439V87.2929ZM135.867 39.396H128.785V12.4088H135.258C144.426 12.4088 145.881 17.153 145.881 25.9122C145.859 34.5226 144.534 39.396 135.867 39.396ZM158.327 26.1487C158.327 9.36133 151.115 0.729028 136.345 0.729028H116.317V87.2929H128.763V50.3445H136.215L147.812 87.3148H160.998L147.573 47.7896C155.525 43.4089 158.327 36.1099 158.327 26.1487ZM83.845 66.8757C83.845 72.8437 79.9333 75.635 75.4168 75.635C70.8982 75.635 66.9887 72.8437 66.9887 66.8757V21.1462C66.9887 15.1782 70.8982 12.3869 75.4168 12.3869C79.9333 12.3869 83.845 15.1782 83.845 21.1462V66.8757ZM75.4168 0C65.2721 0 54.5425 7.0407 54.5425 21.1462V66.8538C54.5425 80.9593 65.2942 88 75.4168 88C85.5594 88 96.2911 80.9593 96.2911 66.8538V21.1462C96.2911 7.0407 85.5594 0 75.4168 0ZM0 87.2929H12.4462V50.3445H33.9296V38.6647H12.4462V12.4088H37.0993V0.729028H0V87.2929Z"
+        fill="white" />
+    </svg>
+    <p style="margin-top: 91px; font-style: normal; font-weight: 700; font-size: 48px; color: #FFFFFF;">Big Fashion
+      Festival</p>
+    <p style="margin-top: 36px; font-style: normal; font-weight: 700; font-size: 42px; color: #FFFFFF;">70% - 80% off
+    </p>
+    <button class="Explore" style="border: 2px solid #FFFFFF; color: #FFFFFF;;">Explore</button>
+  </section>
+  <!-- __________________________________________________ -->
+  <section style="padding: 80px 50px 0px 50px;">
+    <h1 class="sectionTitle">Shop by Categories</h1>
+    <br>
+    <div id="categories">
+      <div class="categorie" style="grid-column: span 2;  grid-row: span 2; position: relative;">
+        <div style="position: absolute;  top: 30px; left: 30px;">
+          <p>Womens Pants</p>
+          <a href="/">Explore &#8594;</a>
+        </div>
+        <img src="./assets/categorieIMG/categorieIMG1.png" alt="">
+      </div>
+      <div class="categorie" style=" grid-column: span 2; position: relative;">
+        <div style="position: absolute;  top: 30px; left: 30px;">
+          <p>Mens Jacket</p>
+          <a href="/">Explore &#8594;</a>
+        </div>
+        <img src="./assets/categorieIMG/categorieIMG2.png" alt="">
+      </div>
+      <div class="categorie" style=" grid-column: span 2; position: relative;">
+        <div style="position: absolute;  top: 30px; left: 30px;">
+          <p>Sweater</p>
+          <a href="/">Explore &#8594;</a>
+        </div>
+        <img src="./assets/categorieIMG/categorieIMG3.png" alt="">
+      </div>
+      <div class="categorie" style=" grid-column: span 2; position: relative;">
+        <div style="position: absolute;  top: 30px; left: 30px;">
+          <p>Womens Tops</p>
+          <a href="/">Explore &#8594;</a>
+        </div>
+        <img src="./assets/categorieIMG/categorieIMG4.png" alt="">
+      </div>
+      <div class="categorie" style=" grid-column: span 1; position: relative;">
+        <div style="position: absolute;  top: 30px; left: 30px;">
+          <p>Pants</p>
+          <a href="/">Explore &#8594;</a>
+        </div>
+        <img src="./assets/categorieIMG/categorieIMG5.png" alt="">
+      </div>
+      <div class="categorie" style=" grid-column: span 1; position: relative;">
+        <div style="position: absolute;  top: 30px; left: 30px;">
+          <p>Womens Jackets</p>
+          <a href="/">Explore &#8594;</a>
+        </div>
+        <img src="./assets/categorieIMG/categorieIMG6.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- __________________________________________________ -->
+  <section style="padding: 80px 50px 0px 50px;">
+    <h1 class="sectionTitle">What Our Customer Says</h1>
+    <br>
+    <div id="">
+    </div>
+  </section>
+   <!-- __________________________________________________ -->
+  <footer style="margin-top: 100px; background-color: #00071B;">
+    <div style="display: flex; gap: 29px; padding: 44px 00px 0px 50px;">
+      <svg width="76" height="64" viewBox="0 0 76 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M51.4005 50.4413L75.9923 64L76 30.2056L51.4005 16.0194V50.4413ZM25.1741 0L52.0343 12.3311L26.7702 30.2045L26.7614 64L0 51.509V18.0093L25.1741 0Z"
+          fill="white" />
+      </svg>
+      <p style="font-style: normal;font-weight: 700;font-size: 64px;line-height: 79px;color: #FFFFFF;">Globex</p>
+    </div>
+    <div>
+      <div id="foterMenu">
+        <ul style="grid-column: span 1;">
+          <li style="font-weight: 700; font-size: 24px;">Womem</li>
+          <li><a href="/">All Women</a></li>
+          <li><a href="/">Skirts</a></li>
+          <li><a href="/">T- Shirts</a></li>
+          <li><a href="/">Tops</a></li>
+          <li><a href="/">Jackets</a></li>
+        </ul>
+        <ul style="grid-column: span 1;">
+          <li style="font-weight: 700; font-size: 24px;">Men</li>
+          <li><a href="/">All Women</a></li>
+          <li><a href="/">Skirts</a></li>
+          <li><a href="/">T- Shirts</a></li>
+          <li><a href="/">Tops</a></li>
+          <li><a href="/">Jackets</a></li>
+        </ul>
+        <ul style="grid-column: span 1;">
+          <li style="font-weight: 700; font-size: 24px;">Kids</li>
+          <li><a href="/">All Women</a></li>
+          <li><a href="/">Skirts</a></li>
+          <li><a href="/">T- Shirts</a></li>
+          <li><a href="/">Tops</a></li>
+          <li><a href="/">Jackets</a></li>
+        </ul>
+        <ul style="grid-column: span 1;">
+          <li style="font-weight: 700; font-size: 24px;">Shopping</li>
+          <li><a href="/">All Women</a></li>
+          <li><a href="/">Skirts</a></li>
+          <li><a href="/">T- Shirts</a></li>
+          <li><a href="/">Tops</a></li>
+          <li><a href="/">Jackets</a></li>
+        </ul>
+        <ul style="grid-column: span 1;">
+          <li style="font-weight: 700; font-size: 24px;">More links</li>
+          <li><a href="/">All Women</a></li>
+          <li><a href="/">Skirts</a></li>
+          <li><a href="/">T- Shirts</a></li>
+          <li><a href="/">Tops</a></li>
+          <li><a href="/">Jackets</a></li>
+        </ul>
+        <ul style="grid-column: span 2;">
+          <li style="font-weight: 700; font-size: 24px;">Stay In Touch</li>
+          <li>Stay in touch to get special offers, free giveaways and once in a lifetime deals</li>
+          <div
+            style="display: flex; align-items: center; gap: 31px;border: 1px solid #FFFFFF; border-radius: 2px; padding: 14px 18px 14px 18px; width: fit-content; margin-top: 16px;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M22 6L12 13L2 6" stroke="white" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><input type="email" name="" id="" placeholder="Enter your email"
+              style="background: none; border: none; outline: none; font-style: normal;font-weight: 400;font-size: 18px;line-height: 22px;color: #ABABAB; font-family: 'Libre Baskerville';">
+          </div>
+        </ul>
+      </div>
+      <hr style="margin-top: 79px;">
+      <div id="links"
+        style="display: flex; align-items: center; justify-content: space-around; padding: 37px 0px 37px 0px;">
+        <a href="/">Terms & Conditions</a>
+        <a href="/">Privacy Policy</a>
+        <div style="display: flex; align-items: center;">
+          <a href="/"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28 10.6667V21.3333C28 23.1014 27.2976 24.7971 26.0474 26.0474C24.7971 27.2976 23.1014 28 21.3333 28H10.6667C8.89856 28 7.20286 27.2976 5.95262 26.0474C4.70238 24.7971 4 23.1014 4 21.3333V10.6667C4 8.89856 4.70238 7.20286 5.95262 5.95262C7.20286 4.70238 8.89856 4 10.6667 4H21.3333C23.1014 4 24.7971 4.70238 26.0474 5.95262C27.2976 7.20286 28 8.89856 28 10.6667Z"
+                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M14.6667 28.0001V16.0001C14.6667 13.0827 15.3333 10.6667 20 10.6667" stroke="white"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M12 17.3333H20" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg></a>
+          <a href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8.70916 1.24375C10.0777 1.18075 10.514 1.16675 14 1.16675C17.486 1.16675 17.9223 1.18191 19.2897 1.24375C20.657 1.30558 21.5903 1.52375 22.407 1.83991C23.2622 2.16308 24.038 2.66825 24.6797 3.32158C25.333 3.96208 25.837 4.73675 26.159 5.59308C26.4763 6.40975 26.6933 7.34308 26.7563 8.70808C26.8193 10.0789 26.8333 10.5152 26.8333 14.0001C26.8333 17.4861 26.8182 17.9224 26.7563 19.2909C26.6945 20.6559 26.4763 21.5892 26.159 22.4059C25.837 23.2624 25.3321 24.0383 24.6797 24.6797C24.038 25.3331 23.2622 25.8371 22.407 26.1591C21.5903 26.4764 20.657 26.6934 19.292 26.7564C17.9223 26.8194 17.486 26.8334 14 26.8334C10.514 26.8334 10.0777 26.8182 8.70916 26.7564C7.34416 26.6946 6.41082 26.4764 5.59416 26.1591C4.73773 25.837 3.96178 25.3322 3.32032 24.6797C2.66743 24.0389 2.16219 23.2633 1.83982 22.4071C1.52366 21.5904 1.30666 20.6571 1.24366 19.2921C1.18066 17.9212 1.16666 17.4849 1.16666 14.0001C1.16666 10.5141 1.18182 10.0777 1.24366 8.71041C1.30549 7.34308 1.52366 6.40975 1.83982 5.59308C2.16267 4.73684 2.66829 3.96128 3.32149 3.32041C3.96204 2.66767 4.73721 2.16243 5.59299 1.83991C6.40966 1.52375 7.34299 1.30675 8.70799 1.24375H8.70916ZM19.1858 3.55375C17.8325 3.49191 17.4265 3.47908 14 3.47908C10.5735 3.47908 10.1675 3.49191 8.81416 3.55375C7.56232 3.61091 6.88332 3.81975 6.43066 3.99591C5.83216 4.22925 5.40399 4.50575 4.95482 4.95491C4.52904 5.36914 4.20137 5.87341 3.99582 6.43075C3.81966 6.88341 3.61082 7.56241 3.55366 8.81425C3.49182 10.1676 3.47899 10.5736 3.47899 14.0001C3.47899 17.4266 3.49182 17.8326 3.55366 19.1859C3.61082 20.4377 3.81966 21.1167 3.99582 21.5694C4.20116 22.1259 4.52899 22.6311 4.95482 23.0452C5.36899 23.4711 5.87416 23.7989 6.43066 24.0042C6.88332 24.1804 7.56232 24.3892 8.81416 24.4464C10.1675 24.5082 10.5723 24.5211 14 24.5211C17.4277 24.5211 17.8325 24.5082 19.1858 24.4464C20.4377 24.3892 21.1167 24.1804 21.5693 24.0042C22.1678 23.7709 22.596 23.4944 23.0452 23.0452C23.471 22.6311 23.7988 22.1259 24.0042 21.5694C24.1803 21.1167 24.3892 20.4377 24.4463 19.1859C24.5082 17.8326 24.521 17.4266 24.521 14.0001C24.521 10.5736 24.5082 10.1676 24.4463 8.81425C24.3892 7.56241 24.1803 6.88341 24.0042 6.43075C23.7708 5.83225 23.4943 5.40408 23.0452 4.95491C22.6309 4.52916 22.1266 4.20149 21.5693 3.99591C21.1167 3.81975 20.4377 3.61091 19.1858 3.55375V3.55375ZM12.3608 17.9562C13.2763 18.3373 14.2956 18.3887 15.2447 18.1018C16.1939 17.8148 17.0139 17.2072 17.5649 16.3827C18.1158 15.5582 18.3634 14.5681 18.2654 13.5814C18.1674 12.5946 17.7298 11.6725 17.0275 10.9726C16.5798 10.5251 16.0384 10.1825 15.4424 9.96942C14.8464 9.75631 14.2105 9.678 13.5806 9.74013C12.9506 9.80226 12.3423 10.0033 11.7994 10.3287C11.2565 10.6542 10.7925 11.0959 10.4408 11.6222C10.0892 12.1485 9.85854 12.7463 9.76559 13.3724C9.67264 13.9985 9.71967 14.6374 9.90329 15.2432C10.0869 15.8489 10.4026 16.4065 10.8275 16.8756C11.2524 17.3447 11.7761 17.7138 12.3608 17.9562ZM9.33566 9.33575C9.94818 8.72322 10.6754 8.23733 11.4757 7.90584C12.276 7.57434 13.1337 7.40372 14 7.40372C14.8662 7.40372 15.724 7.57434 16.5243 7.90584C17.3246 8.23733 18.0518 8.72322 18.6643 9.33575C19.2769 9.94828 19.7627 10.6755 20.0942 11.4758C20.4257 12.2761 20.5964 13.1338 20.5964 14.0001C20.5964 14.8663 20.4257 15.7241 20.0942 16.5244C19.7627 17.3247 19.2769 18.0519 18.6643 18.6644C17.4273 19.9015 15.7495 20.5964 14 20.5964C12.2505 20.5964 10.5727 19.9015 9.33566 18.6644C8.0986 17.4274 7.40363 15.7495 7.40363 14.0001C7.40363 12.2506 8.0986 10.5728 9.33566 9.33575V9.33575ZM22.0593 8.38608C22.2111 8.2429 22.3326 8.07071 22.4167 7.87972C22.5007 7.68873 22.5456 7.48281 22.5486 7.27417C22.5517 7.06552 22.5128 6.85839 22.4344 6.66503C22.3559 6.47167 22.2395 6.29601 22.0919 6.14846C21.9444 6.00091 21.7687 5.88446 21.5754 5.80602C21.382 5.72757 21.1749 5.68872 20.9662 5.69176C20.7576 5.6948 20.5517 5.73968 20.3607 5.82373C20.1697 5.90778 19.9975 6.02929 19.8543 6.18108C19.5759 6.47628 19.4234 6.86839 19.4293 7.27417C19.4352 7.67994 19.599 8.06744 19.886 8.3544C20.173 8.64136 20.5605 8.80518 20.9662 8.8111C21.372 8.81701 21.7641 8.66455 22.0593 8.38608V8.38608Z"
+                fill="white" />
+            </svg></a>
+          <a href="/"><svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M23.7705 7.276C22.6963 6.19472 21.4182 5.33735 20.0103 4.75356C18.6024 4.16977 17.0926 3.87116 15.5685 3.87504C9.17729 3.87504 3.97446 9.07658 3.97188 15.4703C3.97188 17.5137 4.50533 19.5081 5.51929 21.2673L3.875 27.2749L10.022 25.6616C11.7224 26.5872 13.6273 27.0725 15.5633 27.0734H15.5685C21.9583 27.0734 27.1612 21.8718 27.1637 15.4781C27.1681 13.9545 26.8705 12.4452 26.2881 11.0374C25.7057 9.62958 24.85 8.35114 23.7705 7.276ZM15.5685 25.1165H15.5646C13.8383 25.1167 12.1438 24.6522 10.6588 23.7719L10.3075 23.5626L6.65983 24.5197L7.63246 20.9638L7.40383 20.5995C6.43868 19.063 5.92776 17.2848 5.93004 15.4703C5.93263 10.1564 10.2558 5.8332 15.5723 5.8332C16.8385 5.83039 18.0926 6.07873 19.2622 6.56384C20.4317 7.04895 21.4934 7.7612 22.3859 8.65937C23.2831 9.55326 23.9942 10.6161 24.4782 11.7865C24.9622 12.9569 25.2094 14.2116 25.2056 15.4781C25.203 20.792 20.8798 25.1165 15.5685 25.1165ZM20.8552 17.8974C20.5646 17.7514 19.1412 17.0513 18.8751 16.9545C18.6103 16.8576 18.4179 16.8098 18.2241 17.0991C18.0304 17.3885 17.475 18.0407 17.3057 18.2345C17.1365 18.4282 16.9673 18.4515 16.678 18.3068C16.3887 18.1622 15.4548 17.856 14.3478 16.8692C13.4863 16.1007 12.905 15.1526 12.7358 14.862C12.5666 14.5713 12.7177 14.415 12.8637 14.2704C12.9942 14.1412 13.153 13.932 13.2977 13.7627C13.4424 13.5935 13.4902 13.4734 13.587 13.2797C13.6839 13.0859 13.6361 12.9167 13.5625 12.772C13.4902 12.6261 12.9102 11.2001 12.6687 10.6201C12.4349 10.0582 12.1959 10.1332 12.0177 10.1254C11.8331 10.1179 11.6483 10.1144 11.4635 10.1151C11.3166 10.1188 11.1721 10.1529 11.0389 10.2151C10.9058 10.2774 10.7869 10.3664 10.6898 10.4767C10.4237 10.7674 9.67588 11.4675 9.67588 12.8935C9.67588 14.3195 10.7144 15.6977 10.859 15.8914C11.0037 16.0852 12.9025 19.0108 15.8087 20.2663C16.501 20.5647 17.041 20.7429 17.4607 20.8772C18.1544 21.0981 18.786 21.0658 19.2859 20.9922C19.8426 20.9095 20.9999 20.2921 21.2415 19.6153C21.483 18.9385 21.483 18.3585 21.4107 18.2371C21.3383 18.1157 21.1433 18.042 20.8552 17.8974Z"
+                fill="white" />
+            </svg></a>
+          <a href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M26.8333 3.50001C25.7161 4.28807 24.4791 4.89081 23.17 5.28501C22.4674 4.47711 21.5335 3.90449 20.4949 3.64459C19.4562 3.3847 18.3627 3.45007 17.3624 3.83188C16.3621 4.21368 15.5032 4.89348 14.9018 5.77935C14.3004 6.66522 13.9856 7.7144 14 8.78501V9.95168C11.9497 10.0048 9.91814 9.55013 8.08617 8.62803C6.25419 7.70594 4.67869 6.34509 3.49999 4.66668C3.49999 4.66668 -1.16668 15.1667 9.33332 19.8333C6.93061 21.4643 4.06834 22.2821 1.16666 22.1667C11.6667 28 24.5 22.1667 24.5 8.75001C24.4989 8.42504 24.4677 8.10087 24.4067 7.78168C25.5974 6.60742 26.4376 5.12484 26.8333 3.50001V3.50001Z"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg></a>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- __________________________________________________ -->
+  <script src="script.js"></script>
+</body>
+
+</html>
