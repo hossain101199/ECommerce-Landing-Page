@@ -205,5 +205,4 @@ for (let index = 0; index < dealsOfTheDayProducts.length; index++) {
             `
     dealsOfTheDay.appendChild(productCard)
 }
-
 // _________________________________________________________________________________________
